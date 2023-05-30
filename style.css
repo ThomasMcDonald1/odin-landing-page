@@ -4,6 +4,7 @@ body
     padding: 2px;
     margin: 32px;
     margin-top: 0px;
+    margin-bottom: 0px;
     /*background-color: #18110D; */
 }
 
@@ -20,6 +21,7 @@ a
 {
     margin: 4px;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -37,6 +39,7 @@ a
     justify-content: space-between;
     justify-self: flex-start;
     background-color:#11496E;
+    border-top: 2px solid #E09D1B;
 }
 
 .logo-header-image
@@ -67,6 +70,7 @@ a
     margin: 0px;
     font-weight: bold;
     color:#E09D1B;
+    text-shadow: 2px 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -84,6 +88,7 @@ a
     margin: 0px;
     font-weight: bold;
     color:#E09D1B;
+    text-shadow: 2px 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -117,8 +122,9 @@ a
 .intro-welcome
 {
     color:#E09D1B;
+    text-shadow: 2px 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 38px;
+    font-size: 32px;
     margin: 0px;
     padding: 0px;
 }
@@ -126,6 +132,7 @@ a
 .intro-message
 {
     color: #1899bd;
+    text-shadow: 2px 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 24px;
 }
@@ -153,7 +160,8 @@ a
 
 .project-section-title
 {
-    color: #1b120d;
+    color: #1899bd;
+    text-shadow: 2px 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 38px;
 }
@@ -191,4 +199,132 @@ a
     color: #1b120d;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 16px;
+}
+
+/************************* PAGE QUOTE *************************/
+
+.page-quote
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #11496E;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #E09D1B;
+}
+
+.quote-text
+{
+    font-style: italic;
+    font-size: 32px;
+    max-width: 650px;
+    color: #E09D1B;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px black;
+    margin-bottom: 12px;
+}
+
+.quote-reference
+{
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 24px;
+    max-width: 650px;
+    color: #B2AAB0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px black;
+    margin-bottom: 32px;
+}
+
+.quote-img
+{
+    width: 550px;
+    height: 500px;
+    border-radius: 25%;
+    border: 2px solid #E09D1B;
+}
+
+/************************* PAGE SOCIALS *************************/
+
+.page-socials
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#18110D;
+    padding: 32px;
+    border-bottom: 2px solid #E09D1B;
+}
+
+.social-title
+{
+    color: #E09D1B;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px black;
+    font-size: 32px;
+}
+
+.socials-container
+{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-item-img
+{
+    height: 100px;
+    width: 100px;
+}
+
+.socials-item-description
+{
+    color: #1899bd;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px black;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/************************* FOOTER *************************/
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #18110D;
+    background-color: #B2AAB0;
+    margin-bottom: 0px;
+    border-top: 2px solid #E09D1B;
+    border-bottom: 2px solid #1899bd;
+}
+
+.footer-text
+{
+    color: #1a2137;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 1px 1px black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-link
+{
+    color: #1a2137;
+    text-decoration: none;
 }
